@@ -68,3 +68,16 @@ console.log(add([1, 5, 3, 0, 1, 5, 10, 6, 951, 213, 51]))
 console.log(sub([5, 10]))
 console.log(sum([5, 5, 5, 5, 5, 5, 5]))
 console.log(divide([10, 3]))
+
+let firstName = 'Alwest'
+
+function changeVar() {
+    firstName = 'John';
+
+    console.log(firstName)
+
+}
+
+
+console.log(firstName)
+changeVar()
